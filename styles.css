@@ -1,0 +1,302 @@
+/*Project:  Scispark Website
+Version:  1
+Last change:  11/15/2015
+Assigned to:  Lauren Wong
+Primary use:  Information*/
+
+/*Styling Global Pages*/
+
+  html {
+    background-color: #F3F5F8;
+  }
+
+  body {
+    padding-top: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    background-color: #F3F5F8;
+    color: black;
+    font-size: 1.7em;
+  }
+
+  h1{
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.1em;
+    text-transform: uppercase;
+  }
+
+  h1.hero{
+    color: white;
+  }
+
+  img.logo {
+    height: 50px;
+  }
+
+  .navbar{
+    padding: 0px 0px 0px 4%;
+  }
+
+    .container_nav{
+    background-color: #F3F5F8;
+    padding: 0px 0px 0px 2%;
+    }
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+   .navbar-nav > li > a {
+      color: #3268cc;
+    }
+
+    .navbar .navbar-nav > li > a:hover {
+      color: #3268cc;
+    }
+
+    nav.navbar.navbar-default.navbar-static-top{
+      background-color: #F3F5F8;
+      text-decoration: none;
+    }
+
+a.accessible {
+position:absolute;
+left:-1000px;
+top:-1000px;
+width:1px;
+height:1px;
+text-align: left;
+overflow:hidden;
+}
+
+a.accessible:focus, a.accessible:active, a.accessible:hover {
+position:absolute;
+left:0;
+top:0;
+width:auto;
+height:auto;
+overflow:visible;
+background-color:#FF3;
+border: 1px dotted #000;
+}
+
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div.second{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+/*Styling Home Page*/
+  div.jumbotron{
+    background-image: url("images/lightning3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10%;
+  }
+
+  p.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 4%;
+  }
+
+  .container_main{
+    padding: 40px 15% 10px 15%;
+    text-align: center;
+  }
+
+  div.container-centered {
+    text-align: center;
+  }
+
+  div.container-calltoaction{
+    text-align: center;
+  }
+
+  .btn.btn-about {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    border-radius: .5px;
+    border: none;
+    background-color: #21428E;
+    color: white;
+    font-weight: 100;
+  }
+
+div.col-md-4.button{
+  padding-bottom: 5%;
+}
+
+  .btn.btn-contact {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    border-radius: .5px;
+    border: none;
+    background-color: #21428E;
+    color: white;
+    font-weight: 100;
+  }
+
+  .btn.btn-default:hover{
+    background-color: #3268cc;
+  }
+
+  .test{
+    padding-top: 100px;
+  }
+
+  .thumbnail{
+    width: 80%;
+    height: 80%;
+    -webkit-filter: grayscale(100%);
+  }
+
+  .thumbnail2{
+    width: 100%;
+    height: 100%;
+  }
+
+/*Styling About Page*/
+
+/*Styling Technology Page*/
+
+div.container_diagram{
+  text-align: center;
+}
+
+img.diagram{
+  height:100%;
+  width:70%;
+}
+
+p.thumbnails{
+  font-size: 12px;
+  font-style: italic;
+}
+
+/*Styling The Team Page*/
+  .row{
+    margin:70px;
+  }
+
+  .caption{
+    text-align: center;
+  }
+
+  h2{
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  h4{
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .circular {
+    width: 80%;
+    height: 80%;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-filter: grayscale(100%);
+    }
+
+/*Styling Contact Page*/
+  form{
+    margin: 0px auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  form div label p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+  }
+
+  form > div{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+  }
+
+  form> div label{
+    width: 300px;
+    display: inline-block;
+    border: none;
+  }
+
+  form div input.name{
+    border: none;
+    border-bottom: 1px solid #645B43;
+    width: 350px;
+    origin/master
+    background-color:  #E7E5E4;
+  }
+
+  form div input.name:hover{
+    background-color: #FC2C2B;
+    opacity: .3;
+  }
+
+  form div input.email{
+    border: none;
+    border-bottom: 1px solid #645B43;
+    width: 350px;
+    background-color:  #E7E5E4;
+  }
+
+  form div input.email:hover{
+    background-color: #FC2C2B;
+    opacity: .3;
+  }
+
+  form div input.company{
+    border: none;
+    border-bottom: 1px solid #645B43;
+    width: 350px;
+    background-color:  #E7E5E4;
+  }
+
+  form div input.company:hover{
+    background-color: #FC2C2B;
+    opacity: .3;
+  }
+
+  form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #645B43;
+    width: 350px;
+    background-color:  #E7E5E4;
+  }
+
+  form textarea:hover{
+    background-color: #FC2C2B;
+    opacity: .3;
+  }
+
+/*Styling Footer*/
+
+  footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-color: #F3F5F8;
+    text-align: center;
+  }
